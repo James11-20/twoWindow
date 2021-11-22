@@ -19,7 +19,7 @@ public class TwoWindowController {
         var secondLoc = new FXMLLoader(twoWindowDemo.class.getResource("SecondWindow.fxml"));
         Scene secondScene = null;
         try{
-            secondScene = new Scene(secondLoc.load(), 300, 400);
+            secondScene = new Scene(secondLoc.load(), 900, 600);
         }catch (IOException e){
             System.out.println("Couldn't load second window");
             e.printStackTrace();
