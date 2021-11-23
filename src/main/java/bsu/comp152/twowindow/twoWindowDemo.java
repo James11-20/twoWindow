@@ -18,7 +18,7 @@ public class twoWindowDemo extends Application {
         catch (IOException e){
             System.out.println("Couldn't Find FXML file!!!!!!");
         }
-        stage.setTitle("Hello!");
+        stage.setTitle("First Window");
         stage.setScene(scene);
         stage.show();
     }
